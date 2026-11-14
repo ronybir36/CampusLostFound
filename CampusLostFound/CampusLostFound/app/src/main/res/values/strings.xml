@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Campus Lost and Found</string>
+
+    <string name="login_title">Welcome back</string>
+    <string name="register_title">Create account</string>
+    <string name="hint_name">Full name</string>
+    <string name="hint_student_id">Student ID</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="go_register">New here? Create an account</string>
+    <string name="go_login">Already have an account? Login</string>
+    <string name="logout">Logout</string>
+
+    <string name="add_edit_post_title">Post an item</string>
+    <string name="add_edit_edit_title">Edit item</string>
+    <string name="type_lost">Lost</string>
+    <string name="type_found">Found</string>
+    <string name="hint_title">Item name (e.g. Black wallet)</string>
+    <string name="hint_description">Description, colour, distinctive marks</string>
+    <string name="hint_location">Where it was lost or found</string>
+    <string name="hint_contact">Your phone number</string>
+    <string name="pick_gallery">Gallery</string>
+    <string name="take_photo">Camera</string>
+    <string name="post_item">Post item</string>
+    <string name="update_item">Update item</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="empty_items">No items yet. Tap + to post one.</string>
+    <string name="content_fab_add">Add item</string>
+    <string name="content_item_image">Item photo</string>
+</resources>

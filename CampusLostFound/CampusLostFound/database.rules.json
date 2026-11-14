@@ -1,0 +1,18 @@
+{
+  "rules": {
+    "items": {
+      ".indexOn": ["createdAt"],
+      ".read": "auth != null",
+      "$itemId": {
+        ".write": "auth != null && (!data.exists() || data.child('ownerUid').val() === auth.uid) && (!newData.exists() || newData.child('ownerUid').val() === auth.uid)",
+        ".validate": "newData.hasChildren(['type', 'title', 'description', 'location', 'contact', 'ownerUid', 'createdAt'])"
+      }
+    },
+    "users": {
+      "$uid": {
+        ".read": "auth != null && auth.uid === $uid",
+        ".write": "auth != null && auth.uid === $uid"
+      }
+    }
+  }
+}
